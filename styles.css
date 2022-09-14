@@ -1,0 +1,107 @@
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/*cabeza*/
+.header{
+    display: flex;
+    background-color: darkgray;
+    flex:initial;
+    padding:8px;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    flex: auto;
+}
+
+.links{
+display: flex;
+gap: 10px;
+
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+/*primer bloque*/
+
+.first{
+    display: flex;
+    background-color: darkgray;
+}
+        /*lado izquierdo*/
+.intro{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+ 
+
+}
+
+.title1{
+font-weight: 700;
+font-size: larger;
+}
+
+.text1{
+
+}
+
+.button1{
+margin: 0;
+padding: 0;
+background-color: blue;
+color: white;
+}
+
+/*second*/
+.title2{
+    display: flex;
+justify-content: center;
+font-size: larger;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    gap:52px;
+}
+
+.text2{
+    max-width: 300px;
+    display: flex;
+}
+
+/*Third*/
+
+.third{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.quote{
+    display: flex;
+    font-size: 50px;
+    font-style: italic;
+    color: white;
+}
+
+.author{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
